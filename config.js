@@ -1,5 +1,5 @@
-var api = 'http://127.0.0.1:11898';
-var donationAddress = "";
+var api = 'http://18.232.33.114:21898';
+var donationAddress = "qsqs";
 var blockTargetInterval = 30;
 var coinUnits = 100;
 var symbol = 'trtl';
