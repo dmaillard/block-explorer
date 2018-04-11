@@ -9,6 +9,19 @@ Block explorer for UaiCoin CryptoNote based cryptocurrency.
 ```
 2) Just upload to your website and change 'api' variable in config.js to point to your daemon.
 
+#### Installation for Mac on localhost
+
+```bash
+sudo su -
+apachectl start
+./UaiCoind --enable-cors="*" --enable_blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=21898
+```
+In Finder, Go > Go To Folder: /Library/WebServer/Documents
+Download and extract this repository to /Library/WebServer/Documents/block-explorer
+Go to http://localhost/block-explorer/
+If it does not work, open http://127.0.0.1:21898/getinfo and see in your local daemon if it's accepting connections
+
+Additional resource: https://jason.pureconcepts.net/2012/10/install-apache-php-mysql-mac-os-x/
 
 ### Development
 Devs:
