@@ -1,9 +1,9 @@
-var api = 'http://18.232.33.114:21898';
+var api = 'http://127.0.0.1:21898';
 var donationAddress = "";
 var blockTargetInterval = 30;
 var coinUnits = 100;
 var symbol = 'UAI';
-var refreshDelay = 30000;
+var refreshDelay = 15000; //original=30000=30s
 // pools stats by MainCoins
 var networkStat = {
  "trtl": [
